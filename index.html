@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    
+    <!-- google fonts -->
+    <link
+    href = "style.css" rel= "stylesheet" type="text/css">
+  </head>
+
+
+<body>
+  <div class = "container">
+    <p>
+      <h1 class="display-2 text-center">Todo List</h1>
+    </p>
+
+    <div class ="task">
+      <form class ="taskForm" id ="taskForm">
+
+        <input type="text" id="toDoTask" size ="30" placeholder="Enter your task"/>
+        
+        <button id ="addTask" class="button" type="button">
+          Add task
+        </button>
+
+      </form>
+
+    </div>
+
+    <div class="task">
+     
+      <ul id ="taskList" class="list-group">
+        
+
+      </ul>
+    
+    </div>
+  </div>
+
+  <script src = "script.js" type ="text/javascript"></script>
+</body>
+</html>
